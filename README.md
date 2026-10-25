@@ -1,22 +1,27 @@
 # Português Fácil 🇵🇹
 
-An interactive European Portuguese A1–A2 starter website for Bengali speakers.
+A responsive European Portuguese A1–A2 learning website for Bengali speakers.
 
 ## Features
-- Bengali explanations and Portuguese examples
-- Beginner lesson cards for greetings, essential words, and daily conversation
-- Interactive vocabulary flashcards with categories
-- Multiple-choice practice quiz with score
-- Common phrase list with browser text-to-speech using the `pt-PT` language tag
-- Responsive layout for mobile and desktop
+- Bengali explanations and beginner lessons
+- Vocabulary flashcards with category filters
+- Multiple-choice quiz with score tracking
+- Everyday Portuguese phrases with browser speech support (`pt-PT`)
+- Responsive mobile and desktop layout
+- Separate HTML, CSS and JavaScript files; no build step or backend required
 
-## Run
-Open `index.html` in a browser. No build step or backend is required.
+## Files
+- `index.html` — site structure
+- `styles.css` — responsive design and layout
+- `app.js` — lesson, flashcard, quiz, phrase and speech interactions
 
-## Publish with GitHub Pages
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select branch `main` and folder `/ (root)`, then save.
-4. After GitHub Pages finishes publishing, use the URL shown on the Pages settings screen.
+## GitHub Pages
+1. Open **Settings → Pages**.
+2. Choose **Deploy from a branch**.
+3. Select `main` and `/ (root)`, then save.
+4. Open the URL GitHub shows in Pages settings after the deployment finishes.
 
-Pronunciation spellings in Bengali are approximate learning aids; actual European Portuguese pronunciation varies by speaker and context.
+## Hatchable deployment
+The project is deployed at https://portugues-facil.hatchable.site. The Hatchable project is currently private; set its visibility to Public in the Hatchable console Settings for visitors to access it without signing in.
+
+Pronunciation spellings in Bengali are approximate learning aids. Actual European Portuguese pronunciation varies by speaker and context.
